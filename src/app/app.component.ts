@@ -9,7 +9,7 @@ import { CardsModule } from './components/cards/cards.module';
   standalone: true,
   imports: [CommonModule, RouterOutlet, MenuModule, CardsModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss', 'app.component.responsive.scss']
 })
 export class AppComponent {
   title = 'angular-blog';

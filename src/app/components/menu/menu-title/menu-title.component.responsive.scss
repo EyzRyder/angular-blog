@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+  .container_manu_title {
+      h1 {
+        font-size: 5rem;
+        font-weight: 700;
+      }
+    }
+}
+@media screen and (max-width: 300px) {
+  .container_manu_title {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+}

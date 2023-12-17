@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
-  styleUrl: './small-card.component.scss'
+  styleUrls: ['./small-card.component.scss','./small-card.component.responsive.scss']
 })
 export class SmallCardComponent {
   @Input()
