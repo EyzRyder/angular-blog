@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-between;
+
+  img{
+    width: 50px;
+    height: auto;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+}

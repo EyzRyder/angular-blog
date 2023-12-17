@@ -1,0 +1,42 @@
+article {
+  display: flex;
+  width: 650px;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: start;
+  transition: all ease-in 200ms;
+
+  .container_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9494942a;
+    padding: .75rem 1rem;
+    width: 200px;
+    min-width: 200px;
+    border-radius: .75rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -2px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+
+  .conteiner_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sunImg {
+      color: grey;
+      padding: .5rem 0;
+    }
+
+    .card_title {}
+  }
+}
