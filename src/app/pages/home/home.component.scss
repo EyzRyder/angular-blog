@@ -1,0 +1,14 @@
+.articles {
+  flex: 1 0%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 0 5rem;
+  gap: 5rem;
+}
+
+.articles_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
