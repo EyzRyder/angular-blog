@@ -1,4 +1,6 @@
-# AngularBlog
+# Desafio do Dio: AngularBlog
+
+Crie uma aplicação de blog funcional, construa componentes inteligentes e aprenda como organizar seu projeto Angular utilizando as ferramentas que o próprio framework Oferece.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
