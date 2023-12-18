@@ -2,16 +2,17 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BigCardComponent } from './big-card/big-card.component';
 import { SmallCardComponent } from './small-card/small-card.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [
     BigCardComponent,
-    SmallCardComponent
+    SmallCardComponent,
   ],
   imports: [
-    CommonModule,
+    CommonModule, RouterModule
   ],
   exports: [
     BigCardComponent,
