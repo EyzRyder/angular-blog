@@ -2,15 +2,11 @@
 
 <div class="articles">
   <div class="left">
-    <app-big-card photoCover="https://v16.angular.io/assets/images/logos/angular/logo-nav@2x.png"
-      cardTitle="Noticia do Dia: Angular é pika" sunImg="dio > angular" Id="1"
-      cardDescription="Voltei a estudar angular e a minha experiencia ta sendo legal" />
+    <app-big-card [photoCover]="bigNews.photoCover"
+      [cardTitle]="bigNews.title" [sunImg]="bigNews.sunImg" [Id]="bigNews.id"
+      [cardDescription]="bigNews.description" />
   </div>
   <div class="articles_right">
-    <app-small-card Id="2" cardTitle="Angular new Version is out" sunImg="Angular.io" />
-    <app-small-card Id="3" cardTitle="Vai la da uma olhada em Qwik também"
-      sunImg="Qwik.builder.io" />
-    <app-small-card Id="4"
-      cardTitle="Sabia que o criado do Angular Criou o Qwik também" sunImg="Youtube" />
+    <app-small-card [Id]="element.id" [cardTitle]="element.title" [sunImg]="element.sunImg" [photoCover]="element.photoCover" *ngFor="let element of news"/>
   </div>
 </div>
